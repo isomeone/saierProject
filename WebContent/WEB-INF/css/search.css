@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+a {
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	top:0px;
+	right:0px;
+}
+
+div {
+	
+}
+
+body {
+	display: flex;
+	align-items: center; /*定义body的元素垂直居中*/
+	justify-content: center; /*定义body的里的元素水平居中*/
+}
+
+#box {
+	width: 380px;
+	margin: 30px auto;
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+}
+
+input {
+	top: 50%;
+	width: 260px;
+	border: 1px solid #e2e2e2;
+	height: 30px;
+	float: left;
+	background-image: url(images/search.jpg);
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 5px center;
+	padding: 0 0 0 0px;
+}
+
+#search {
+	width: 78px;
+	height: 32px;
+	float: right;
+	background: black;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+
+
+form{
+	top:0px;
+	right:0px;
+}
